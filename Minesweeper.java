@@ -363,8 +363,9 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
         new Minesweeper(numMines, diffic);
     }
 
-    public void refresh(int numMin, String difficul) {
+    public void refresh(int numMin, String difficul) { 
         window.setVisible(false);
         new Minesweeper(numMin, difficul);
+        
     }
 }
